@@ -4,24 +4,24 @@ weight: 1
 labfoldernumber: "02"
 sectionnumber: 2
 description: >
-  Create and run your first Virtual Machine.
+  Create and run your first virtual machine
 ---
 
 
-## Lab Goals
+## Lab goals
 
 * Get familiar with the lab environment
 * Create your first VM using KubeVirt
-* Start and Stop a VM using `virtctl` or `kubectl`
-* Connect to the console of the VM
+* Start and stop a VM using `virtctl` or `kubectl`
+* Connect to the VM's console
 * Expose and access ports of your VM
-* Changing a file inside of a VM and observe behaviour
+* Change a file inside a VM and observe the behaviour
 
 
 ## Folder structure
 
-This is your first lab where you will create and apply files to the kubernetes cluster. It may make sense to structure
-your files according to the labs. Feel free to create a folder structure something like
+This is your first lab where you will create and apply files to the Kubernetes cluster. It may make sense to structure
+your files according to the labs. Feel free to create a folder structure something like this:
 
 ```text
 {{% param "labsfoldername" %}}
@@ -31,19 +31,20 @@ your files according to the labs. Feel free to create a folder structure somethi
 [...]
 ```
 
-Make sure you're in the correct directory
-```shell
+Make sure you're in the correct directory:
+
+```bash
 cd {{% param "projecthome" %}}
 ```
 
-And initialize the lab structure by executing the following command
+Initialize the directory structure by executing the following command:
 
-```shell
+```bash
 mkdir -p {{% param "labsfoldername" %}}/{{% param "labsubfolderprefix" %}}{01..{{% param "maxlabnumber" %}}}/
 ```
 
-And verify the structure:
+Finally, verify the structure:
 
-```shell
+```bash
 tree {{% param "labsfoldername" %}}
 ```

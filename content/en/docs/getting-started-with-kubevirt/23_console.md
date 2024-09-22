@@ -8,19 +8,19 @@ description: >
 ---
 
 
-## Console Access
+## Console access
 
-If your VM is running you can open a console to the VM using the `virtctl` tool.
+If your VM is running, you can open a console on the VM using the `virtctl` tool.
 
-First list your VMs to get the name of your VirtualMachine.
+First, list your VMs to get the name of your VirtualMachine:
 
-```shell
+```bash
 kubectl get vm --namespace=$USER
 ```
 
 The output should be:
 
-```shell
+```bash
 NAME            AGE   STATUS    READY
 {{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-firstvm   10m   Running   True
 ```
@@ -28,14 +28,15 @@ NAME            AGE   STATUS    READY
 
 ### {{% task %}} Entering the console
 
-Now enter the console with
-```shell
+Enter the console using:
+
+```bash
 virtctl console {{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-firstvm --namespace=$USER
 ```
 
-Congratulations. You successfully connected to your VMs console. The expected output is:
+Congratulations, you successfully connected to your VMs console! The expected output is:
 
-```shell
+```bash
 Successfully connected to {{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-firstvm console. The escape sequence is ^]
 
 login as 'cirros' user. default password: 'gocubsgo'. use 'sudo' for root.
@@ -46,13 +47,14 @@ training-worker-0 login:
 You probably have to hit `Enter` to get to the login prompt.
 {{% /alert %}}
 
-Now use the default credentials to login.
+You can now use the default credentials to log in:
 
 * User: `cirros`
 * Password: `gocubsgo`
 
-And execute a couple of commands
-```shell
+Try executing a couple of commands, such as:
+
+```bash
 whoami
 ping acend.ch
 ```
