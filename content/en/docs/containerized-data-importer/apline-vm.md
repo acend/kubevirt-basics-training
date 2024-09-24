@@ -1,10 +1,9 @@
 ---
-title: "3.3 Using the Alpine Disk"
-weight: 330
-labfoldernumber: "03"
-sectionnumber: 3.3
+title: "Using the Alpine Disk"
+weight: 23
+labfoldernumber: "02"
 description: >
-  Create a VirtualMachine using the provisioned Alpine Cloud Disk Image.
+  Create a virtual machine using the provisioned Alpine Cloud Disk Image
 ---
 
 In the previous section we have provisioned a custom alpine cloud disk image. We will now create a VM which uses this

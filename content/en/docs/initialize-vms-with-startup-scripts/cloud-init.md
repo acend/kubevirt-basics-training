@@ -1,8 +1,7 @@
 ---
-title: "5.2 Cloud-Init"
-weight: 520
-labfoldernumber: "05"
-sectionnumber: 5.2
+title: "Cloud-Init"
+weight: 42
+labfoldernumber: "04"
 description: >
   Use cloud-init to initialize your VM
 ---

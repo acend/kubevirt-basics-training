@@ -1,10 +1,9 @@
 ---
-title: "2.2 Start and Stop a VM"
-weight: 220
-labfoldernumber: "02"
-sectionnumber: 2.2
+title: "Start and stop a VM"
+weight: 12
+labfoldernumber: "01"
 description: >
-  Start & Stop your VirtualMachine using kubectl or virtctl
+  Start and stop your virtual machine using kubectl and virtctl
 ---
 
 In the previous section, we wrote a VirtualMachine specification and applied the manifest to the Kubernetes cluster.

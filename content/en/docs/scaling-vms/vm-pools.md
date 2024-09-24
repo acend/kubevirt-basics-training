@@ -1,8 +1,7 @@
 ---
-title: "6.2 VirtualMachine Pools"
-weight: 620
-labfoldernumber: "06"
-sectionnumber: 6.2
+title: "VirtualMachine Pools"
+weight: 52
+labfoldernumber: "05"
 description: >
   Using VirtualMachine Pools
 ---

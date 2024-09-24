@@ -1,8 +1,7 @@
 ---
-title: "7.3 Hot plugging Disks"
-weight: 730
-labfoldernumber: "07"
-sectionnumber: 7.3
+title: "Hot plugging Disks"
+weight: 63
+labfoldernumber: "06"
 description: >
   Hot plugging disks into a virtual machines.
 ---

@@ -1,8 +1,7 @@
 ---
-title: "3.1 Introduction"
-weight: 310
-labfoldernumber: "03"
-sectionnumber: 3.1
+title: "Introduction"
+weight: 21
+labfoldernumber: "02"
 description: >
   Introduction to the Containerized Data Importer
 ---

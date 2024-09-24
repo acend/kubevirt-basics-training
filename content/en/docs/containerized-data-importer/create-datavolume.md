@@ -1,10 +1,9 @@
 ---
-title: "3.2 Create a DataVolume"
-weight: 320
-labfoldernumber: "03"
-sectionnumber: 3.2
+title: "Create a DataVolume"
+weight: 22
+labfoldernumber: "02"
 description: >
-  Create a DataVolume to import data to a PVC
+  Create a DataVolume to import data into a PVC
 ---
 
 ## Provisioning a Virtual Machine Disk

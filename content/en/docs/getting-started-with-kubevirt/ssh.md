@@ -1,10 +1,9 @@
 ---
-title: "2.4 Exposing VM Ports"
-weight: 240
-labfoldernumber: "02"
-sectionnumber: 2.4
+title: "Exposing VM Ports"
+weight: 14
+labfoldernumber: "01"
 description: >
-  Accessing ports of the running VirtualMachine
+  Accessing ports of the running virtual machine
 ---
 
 In the previous chapter, we accessed our VM console using the `virtctl` tool. In this section we will expose the SSH port

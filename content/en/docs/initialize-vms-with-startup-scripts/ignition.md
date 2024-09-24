@@ -1,8 +1,7 @@
 ---
-title: "5.3 Ignition"
-weight: 530
-labfoldernumber: "05"
-sectionnumber: 5.3
+title: "Ignition"
+weight: 43
+labfoldernumber: "04"
 description: >
   Use Ignition to initialize your VM
 ---

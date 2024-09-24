@@ -1,8 +1,7 @@
 ---
-title: "6.1 VM disk images"
-weight: 610
-labfoldernumber: "06"
-sectionnumber: 6.1
+title: "VM disk images"
+weight: 51
+labfoldernumber: "05"
 description: >
   Creating disk images for scaling the virtual machines.
 ---

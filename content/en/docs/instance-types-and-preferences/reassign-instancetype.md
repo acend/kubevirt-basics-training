@@ -1,8 +1,7 @@
 ---
-title: "4.4 Re-assign an Instancetype"
-weight: 440
-labfoldernumber: "04"
-sectionnumber: 4.4
+title: "Re-assign an Instancetype"
+weight: 34
+labfoldernumber: "03"
 description: >
   Re-assign an Instance type of your VM
 ---

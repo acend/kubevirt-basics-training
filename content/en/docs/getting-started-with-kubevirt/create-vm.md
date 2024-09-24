@@ -1,10 +1,9 @@
 ---
-title: "2.1 Create a VM"
-weight: 210
-labfoldernumber: "02"
-sectionnumber: 2.1
+title: "Create a VM"
+weight: 11
+labfoldernumber: "01"
 description: >
-  Create your first VirtualMachine
+  Create your first virtual machine
 ---
 
 

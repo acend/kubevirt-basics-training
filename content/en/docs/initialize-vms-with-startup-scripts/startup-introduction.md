@@ -1,8 +1,7 @@
 ---
-title: "5.1 Introduction"
-weight: 510
-labfoldernumber: "05"
-sectionnumber: 5.1
+title: "Introduction"
+weight: 41
+labfoldernumber: "04"
 description: >
   Introduction to VM provisioning with startup scripts. 
 ---

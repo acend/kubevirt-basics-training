@@ -1,28 +1,28 @@
 ---
-title: "1.1 KubeVirt Configuration"
-weight: 110
-labfoldernumber: "01"
-sectionnumber: 1.1
+title: "KubeVirt configuration"
+weight: 11
+type: docs
 description: >
-  Kubevirt Configuration
+  Getting to know the lab environment.
 ---
 
 
-## KubeVirt Installation
+## KubeVirt installation
 
-On the kubernetes cluster used for this training the following operators have been installed.
+On the Kubernetes cluster used for this training, the following Operators have been installed:
 
-| Operator Name                    | Namespace  |
+| Operator name                    | Namespace  |
 |----------------------------------|------------|
 | KubeVirt                         | kubevirt   |
 | Containerized Data Impoter (CDI) | cdi        |
 
-As the configuration and the required feature flags are subject to change we do not highlight them on every section.
+As the configuration and the required feature flags are subject to change, we do not highlight them in every section.
 
 
 ### Emulation
 
 This cluster is using emulation. This has an impact on the VM performance.
+
 ```yaml
 apiVersion: kubevirt.io/v1
 kind: KubeVirt
@@ -37,9 +37,9 @@ spec:
 ```
 
 
-### Enabled FeatureFlags
+### Enabled Kubernetes feature flags
 
-In the cluster the following kubevirt feature flags are enabled.
+In the cluster, the following KubeVirt feature flags are enabled:
 
 ```yaml
 apiVersion: kubevirt.io/v1
@@ -59,4 +59,3 @@ spec:
       - Snapshot
       - VMExport
 ```
-

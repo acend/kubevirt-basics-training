@@ -7,4 +7,4 @@ menu:
 ---
 
 
-## Lab Introduction
+## Lab introduction

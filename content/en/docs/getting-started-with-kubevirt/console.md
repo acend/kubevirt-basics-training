@@ -1,10 +1,9 @@
 ---
-title: "2.3 Accessing the Console"
-weight: 230
-labfoldernumber: "02"
-sectionnumber: 2.3
+title: "Accessing the console"
+weight: 13
+labfoldernumber: "01"
 description: >
-  Opening a console to your VirtualMachine
+  Opening a console on your virtual machine
 ---
 
 

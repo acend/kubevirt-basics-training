@@ -1,8 +1,7 @@
 ---
-title: "4.2 Common types and preferences"
-weight: 420
-labfoldernumber: "04"
-sectionnumber: 4.2
+title: "Common types and preferences"
+weight: 32
+labfoldernumber: "03"
 description: >
   Discover and use common Instancetypes and Preferences provided by KubeVirt.
 ---

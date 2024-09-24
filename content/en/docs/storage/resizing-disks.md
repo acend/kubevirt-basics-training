@@ -1,8 +1,7 @@
 ---
-title: "7.5 Resizing a Disk"
-weight: 750
-labfoldernumber: "07"
-sectionnumber: 7.5
+title: "Resizing a Disk"
+weight: 65
+labfoldernumber: "06"
 description: >
   Resizing virtual machine disks
 ---

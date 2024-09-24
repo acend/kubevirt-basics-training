@@ -1,8 +1,7 @@
 ---
-title: "7. Storage"
-weight: 1
-labfoldernumber: "07"
-sectionnumber: 7
+title: "Storage"
+weight: 6
+labfoldernumber: "06"
 description: >
  Configuring Kubernetes Storage for Virtual Machines
 ---

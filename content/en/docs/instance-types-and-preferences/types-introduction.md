@@ -1,8 +1,7 @@
 ---
-title: "4.1 Introduction"
-weight: 410
-labfoldernumber: "04"
-sectionnumber: 4.1
+title: "Introduction"
+weight: 31
+labfoldernumber: "03"
 description: >
   Create your own Instancetype
 ---

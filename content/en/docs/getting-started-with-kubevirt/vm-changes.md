@@ -1,10 +1,9 @@
 ---
-title: "2.5 Changing files"
-weight: 250
-labfoldernumber: "02"
-sectionnumber: 2.5
+title: "Changing files"
+weight: 15
+labfoldernumber: "01"
 description: >
-  Changing files in your running VM.
+  Changing files in your running VM
 ---
 
 In the previous chapter, we gained access to the VM's console. In this chapter, we will use this access to make a change

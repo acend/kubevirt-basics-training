@@ -1,8 +1,7 @@
 ---
-title: "7.2 Using StorageProfiles"
-weight: 720
-labfoldernumber: "07"
-sectionnumber: 7.2
+title: "Using StorageProfiles"
+weight: 62
+labfoldernumber: "06"
 description: >
   Setting defaults for storage provisioning using StorageProfiles
 ---

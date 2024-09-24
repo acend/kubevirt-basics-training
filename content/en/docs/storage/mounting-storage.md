@@ -1,8 +1,7 @@
 ---
-title: "7.1 Mounting Storage"
-weight: 710
-labfoldernumber: "07"
-sectionnumber: 7.1
+title: "Mounting Storage"
+weight: 61
+labfoldernumber: "06"
 description: >
   Mounting storage as disks and filesystems.
 ---

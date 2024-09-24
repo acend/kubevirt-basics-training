@@ -1,8 +1,7 @@
 ---
-title: "4.3 Create an Instancetype"
-weight: 430
-labfoldernumber: "04"
-sectionnumber: 4.3
+title: "Create an Instancetype"
+weight: 33
+labfoldernumber: "03"
 description: >
   Create your own Instance type and Preference
 ---
