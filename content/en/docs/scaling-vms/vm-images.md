@@ -195,9 +195,9 @@ spec:
 
                               return 200 '${response}';
                             }
-                          }
                         }
-                      path: /etc/nginx/nginx.conf
+                      }
+                    path: /etc/nginx/nginx.conf
             - type: "text/x-shellscript"
               content: |
                 #!/bin/sh

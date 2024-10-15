@@ -253,7 +253,7 @@ NAME                           AGE    PHASE     IP             NODENAME         
 You can access the console using the name of the VMI with `virtctl`:
 
 ```bash
-virtctl console lab06-cirros-replicasetnc5p5 --namespace=$USER
+virtctl console {{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-cirros-replicasetnc5p5 --namespace=$USER
 ```
 
 
@@ -264,6 +264,15 @@ As the VirtualMachineInstanceReplicaSet implements the Kubernetes standard `scal
 ```bash
 kubectl scale vmirs {{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-cirros-replicaset --replicas 1 --namespace=$USER
 ```
+
+{{% alert title="Note" color="info" %}}
+Scaling is currently not possible with regular user permissions. You can change the replica count by editing the
+VirtualMachineInstanceReplicaSet.
+
+```shell
+kubectl edit vmirs {{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-cirros-replicaset --namespace=$USER 
+```
+{{% /alert %}}
 
 
 ## Horizontal pod autoscaler

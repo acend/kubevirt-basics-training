@@ -329,6 +329,14 @@ As the VirtualMachinePool implements the Kubernetes standard `scale` sub-command
 kubectl scale vmpool {{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-webserver --replicas 1 --namespace=$USER
 ```
 
+{{% alert title="Note" color="info" %}}
+Scaling is currently not possible with regular user permissions. You can change the replica count by editing the vmpool.
+
+```shell
+kubectl edit vmpool {{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-webserver --namespace=$USER 
+```
+{{% /alert %}}
+
 
 ## Horizontal pod autoscaler
 
@@ -359,5 +367,13 @@ Scale down the VM pool with:
 ```bash
 kubectl scale vmpool {{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-webserver --replicas 0 --namespace=$USER
 ```
+
+{{% alert title="Note" color="info" %}}
+Scaling is currently not possible with regular user permissions. You can change the replica count by editing the vmpool.
+
+```shell
+kubectl edit vmpool {{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-webserver --namespace=$USER 
+```
+{{% /alert %}}
 
 [^1]: [Horizontal pod autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)

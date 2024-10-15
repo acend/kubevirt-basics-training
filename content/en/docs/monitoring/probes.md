@@ -257,7 +257,7 @@ kubectl get vmi --namespace=$USER
 
 ```bash
 NAME              AGE     PHASE     IP              NODENAME               READY
-lab08-probe       2m32s   Running   10.244.20.230   training-baremetal-0   False
+{{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-probe       2m32s   Running   10.244.20.230   training-baremetal-0   False
 ```
 
 
