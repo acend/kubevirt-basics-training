@@ -23,6 +23,7 @@ kubectl create -f multiple-manifests.yaml
 If you want to inspect the used cloud-init scripts you can decode the base64 string from the secrets in the code blocks below. Copy the base64 string and use the following command:
 ```shell
 echo -n "<base64string>" | base64 -d
+kubectl get secrets lab09-cloudinit-mariadb-provisioner -o jsonpath={'.data.userdata'} | base64 -d
 ```
 
 
