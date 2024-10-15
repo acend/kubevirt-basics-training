@@ -164,7 +164,7 @@ virtctl start {{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-
 
 In addition to the previously configured liveness probe, we will add a readiness probe in this lab. For convenience reasons, we will use the same httpserver and port. Those can be different depending on your needs.
 
-Add a `readinessProbe` with the following specification to the virtual machine (`vm_{{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-liveness.yaml`):
+Add a `readinessProbe` with the following specification to the virtual machine (`vm_{{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-probe.yaml`):
 
 * initialDelaySeconds: `120`
 * periodSeconds: `10`
@@ -265,7 +265,7 @@ NAME              AGE     PHASE     IP              NODENAME               READY
 
 Instead of checking a HTTP endpoint in the liveness probe, we can also check a TCP socket.
 
-Change the virtual machine's `livenessProbe` (`vm_{{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-liveness.yaml`) from `HTTP` to `TCP`. Apply the changes and restart the virtual machine.
+Change the virtual machine's `livenessProbe` (`vm_{{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-probe.yaml`) from `HTTP` to `TCP`. Apply the changes and restart the virtual machine.
 
 {{% details title="Task hint: Solution" %}}
 
@@ -354,7 +354,7 @@ Experiment with the probes from the last couple of labs.
 
 It's also possible the use the guest agent, which we had a look at in the last lab, as indicator for probes.
 
-Configure the virtual machine's `livenessProbe` (`vm_{{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-liveness.yaml`) to use `guestAgentPing` instead of `tcpSocket`. Apply the changes and restart the virtual machine.
+Configure the virtual machine's `livenessProbe` (`vm_{{% param "labsubfolderprefix" %}}{{% param "labfoldernumber" %}}-probe.yaml`) to use `guestAgentPing` instead of `tcpSocket`. Apply the changes and restart the virtual machine.
 
 {{% details title="Task hint: Solution" %}}
 
@@ -440,7 +440,7 @@ As a precondition, the guest agent needs to be installed in the virtual machine 
 ## Watchdog example
 
 {{% alert title="Warning" color="warning" %}}
-This lab is not meant to be executed.
+This lab is not meant to be executed. There is an issue with the execution of the watchdog.
 {{% /alert %}}
 
 
