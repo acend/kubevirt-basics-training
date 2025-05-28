@@ -55,7 +55,7 @@ Using the `cloudInitConfigDrive` attribute gives us the following possibilities 
 
 The data format of an Ignition configuration is always JSON. There is a transpiler available to convert a YAML-formatted Butane config to a
 JSON config if needed. As our config for the Lab is simple enough we directly write the JSON config.
-You may find more details about Butane [here](https://docs.fedoraproject.org/en-US/fedora-coreos/producing-ign/#_configuration_process).
+You may find more details about Butane [in the official documentation](https://docs.fedoraproject.org/en-US/fedora-coreos/producing-ign/#_configuration_process).
 
 {{% alert title="Important" color="warning" %}}
 Make sure you use `secretRef` whenever you provide sensitive data like credentials, certificates and similar.

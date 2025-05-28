@@ -85,7 +85,7 @@ implementing on your own.
   * Install `mariadb-server` package
   * Create a system user `node_exporter` with a group `node_exporter` and the login shell `/bin/nologin`
   * Download node-exporter from `{{% param "nodeExporter" %}}`
-    * Create a systemd service file to easily start the node exporter. You can find some details [here](https://gist.github.com/jarek-przygodzki/735e15337a3502fea40beba27e193b04).
+    * Create a systemd service file to easily start the node exporter. You can find some details [in this gist](https://gist.github.com/jarek-przygodzki/735e15337a3502fea40beba27e193b04).
     * Configure the node exporter to run on port `9100`.
   * Do some cleanup
     * Remove the ssh host files `/etc/ssh/ssh_host_*`
