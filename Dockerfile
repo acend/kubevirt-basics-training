@@ -23,7 +23,7 @@ RUN wkhtmltopdf --enable-internal-links --enable-local-file-access \
     --header-html /pdf/header/index.html --footer-html /pdf/footer/index.html \
     /pdf/index.html /pdf.pdf
 
-FROM docker.io/nginxinc/nginx-unprivileged:1.28-alpine
+FROM docker.io/nginxinc/nginx-unprivileged:1.29-alpine
 
 LABEL maintainer=tim-koko.ch
 LABEL org.opencontainers.image.title="acend.ch's KubeVirt Basics Training"
